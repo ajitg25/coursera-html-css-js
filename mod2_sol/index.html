@@ -1,1 +1,139 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>mod2-assignment</title>
+<style>
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #00FFFF;
+}
+h1 {
+  margin-bottom: 95px;
+  margin-top: 25px;
+}
+div{
+  background-color: gray;
+  margin-bottom: 8px;
+  width:100%;
+  margin-top: 5px;
+}
+
+p {
+  border: 3px solid black;
+  width: 30%;
+  height: 40%;
+  
+  font-family: Helvetica;
+  color: black;
+  float:right;
+  font-weight: bold;
+  text-align:center;
+  font-size: 180%;
+}
+
+
+@media (min-width: 1200px) {
+  .col-lg-4 {
+    float: left;
+    border: 3px solid black;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 15px;
+    width: 31%;
+  }
+  
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+    border: 3px solid black;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 15px;
+  }
+  
+  .col-md-6 {
+    width: 47.1%;
+  }
+  
+  .col-md-12 {
+    width: 96.5%;
+  }
+}
+
+@media (max-width: 991px) {
+  .col-xd-1{
+    float: left;
+    border: 3px solid black;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px
+    width:50%;
+    position: relative;
+    clear:both;
+  }
+}
+#p1 {
+    background-color: #A52A2A;
+
+  }
+#p2 {
+    background-color: orange;
+  }
+#p3 {
+    background-color: yellow;
+    color: black;
+
+  }
+section{
+  clear:left;
+  position: relative;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  margin-right: 15px;
+  float:right;
+}
+</style>
+</head>
+<body>
+<h1 style="color: green;text-align: center;font-size: 300%"> OUR MENU</h1>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-4 col-md-6 col-xd-1">
+      <p id="p1">chicken</p>
+      <section>
+        Modern varieties of chicken such as the Cornish Cross, are bred specifically for meat production, with an emphasis placed on the ratio of feed to meat produced by the animal. The most common breeds of chicken consumed in the U.S. are Cornish and White Rock. Chickens raised specifically for food are called broilers.
+      </section>
+     
+      </div>
+    <div class="col-lg-4 col-md-6 col-xd-1">
+      <p id="p2">Paneer</p>
+      <section>
+        Paneer (pronounced [pəniːr]) or Indian cottage cheese is a fresh acid-set cheese common in the Indian subcontinent (India, Pakistan, Bangladesh) made from cow or buffalo milk. It is a non-aged, non-melting soft cheese made by curdling milk with a fruit- or vegetable-derived acid, such as lemon juice.
+      </section>
+     
+    </div>
+    <div class="col-lg-4 col-md-12 col-xd-1">
+      <p id="p3">Sushi</p>
+      <section>
+        Sushi (すし, 寿司, 鮨, pronounced [sɯɕiꜜ] or [sɯꜜɕi]) is a traditional Japanese dish of prepared vinegared rice (鮨飯, sushi-meshi), usually with some sugar and salt, accompanying a variety of ingredients (ネタ, neta), such as seafood, often raw, and vegetables. Styles of sushi and its presentation vary widely, but the one key ingredient is "sushi rice", also referred to as shari (しゃり), or sumeshi (酢飯).[1]
+      </section>
+     
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
